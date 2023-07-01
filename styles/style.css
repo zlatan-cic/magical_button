@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  transition: background-color 0.3s ease; 
+}
+
+.btn{
+ cursor: pointer; 
+ font-size: 1rem;
+ padding: 1rem 2rem;
+ transition-duration: 0.4s;
+}
+
+
+.btn_1{
+  background-color: #FFF;
+  color: #222;
+  border: 2px solid #d4d4d4;
+  border-radius: 5px;
+}
+
+.btn_1:hover{
+  background-color: #5190e4;
+  color: #FFF;
+}
+
+.btn_1:active {
+  background-color: #e0d4d4;
+}
+
+.container{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
